@@ -1,0 +1,25 @@
+
+# Byte-kompilerade filer
+__pycache__/
+*.py[cod]
+
+# Virtuella miljöer
+venv/
+.env
+
+# Byggfiler
+build/
+dist/
+*.egg-info/
+
+# Docker-relaterat
+*.log
+docker-compose.override.yml
+
+# OS-specifika filer
+.DS_Store
+Thumbs.db
+
+# Modellfiler och output
+models/
+output/
